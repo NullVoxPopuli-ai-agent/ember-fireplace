@@ -1,0 +1,17 @@
+:is(.VPSidebarItem.level-2, .VPSidebarItem.level-3) .text:has(span) {
+  border-bottom: 1px solid;
+  border-color: color(from currentColor srgb r g b / 0.5);
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.vpv-cards-container {
+  padding: unset;
+  background-color: unset;
+  border: unset;
+
+  .card {
+    background-color: var(--vp-c-bg-soft);
+  }
+}

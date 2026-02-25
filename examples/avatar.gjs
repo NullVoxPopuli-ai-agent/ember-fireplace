@@ -1,0 +1,10 @@
+<template>
+  <style>
+    .avatar {
+      border-radius: 50%;
+      width: 50px;
+      box-shadow: inset 0 2px 4px 0 hsla(0, 0, 0, 0.2);
+    }
+  </style>
+  <img src={{@src}} class="avatar" ...attributes>
+</template>
