@@ -4,6 +4,7 @@ const nav = [
     items: [
       { text: 'Guides', link: '/guides' },
       { text: 'Cookbook', link: '/cookbook' },
+      { text: 'Tooling', link: '/tooling' },
       { text: 'Tutorial', link: 'https://guides.emberjs.com/release/tutorial/' },
       {
         text: 'Handbooks',

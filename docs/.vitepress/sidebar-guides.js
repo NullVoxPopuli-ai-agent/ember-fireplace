@@ -59,6 +59,10 @@ const sidebarGuides = [
     ]
   },
   {
+    text: 'Routing',
+    items: []
+  },
+  {
     text: 'Concepts',
     items: [
       {
@@ -97,15 +101,6 @@ const sidebarGuides = [
     text: 'Advanced Topics',
     items: [
       { text: 'Managers', link: '/guides/advanced/managers' }
-    ]
-  },
-  {
-    text: 'Agentic Tools',
-    items: [
-      { text: 'LLMS.txt', link: '/guides/agentic-tools/llms.txt' },
-      { text: 'MCP', link: '/guides/agentic-tools/mcp' },
-      { text: 'Skills', link: '/guides/agentic-tools/skills' },
-      { text: 'Open Code Plugin', link: '/guides/agentic-tools/open-code-plugin' }
     ]
   }
 ];

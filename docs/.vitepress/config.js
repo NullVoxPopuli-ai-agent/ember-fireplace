@@ -7,6 +7,7 @@ import { nav } from './nav';
 import { sidebarGuides } from './sidebar-guides';
 import { sidebarComponentArchitecture } from './sidebar-component-architecture';
 import { sidebarCookbook } from './sidebar-cookbook';
+import { sidebarTooling } from './sidebar-tooling';
 import llmstxt, { copyOrDownloadAsMarkdownButtons } from 'vitepress-plugin-llms';
 import vitePluginEmber, { emberFence } from 'vite-plugin-ember';
 
@@ -25,7 +26,8 @@ export default withMermaid(defineConfig({
     sidebar: {
       '/guides': sidebarGuides, 
       '/component-architecture': sidebarComponentArchitecture,
-      '/cookbook': sidebarCookbook
+      '/cookbook': sidebarCookbook,
+      '/tooling': sidebarTooling
     },
 
     socialLinks: [
