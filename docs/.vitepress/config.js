@@ -13,8 +13,9 @@ import vitePluginEmber, { emberFence } from 'vite-plugin-ember';
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
-  title: "EmberJS (Project Fireplace)",
-  description: "A framework for ambitious web developers.",
+  title: "Ember.js (Project Fireplace)",
+  description: "Project Fireplace: <br>A Community Experiment to rewrite the docs",
+  base: '/ember-fireplace/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav, 
@@ -31,7 +32,7 @@ export default withMermaid(defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/emberjs/ember.js' }
+      { icon: 'github', link: 'https://github.com/gossi/ember-fireplace' }
     ]
   },
   markdown: {
