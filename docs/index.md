@@ -3,10 +3,13 @@
 layout: home
 
 hero:
-  name: "ember"
-  text: "A framework for ambitious web developers."
-  tagline: A what if...? Simulation (Project Fireplace)
+  name: "Ember.js"
+  text: "Project Fireplace: <br>A Community Experiment to rewrite the docs"
+  tagline: A what if...? Simulation
   actions:
+    - theme: brand
+      text: Motivation
+      link: /guides/motivation
     - theme: brand
       text: Guides
       link: /guides
@@ -15,10 +18,20 @@ hero:
       link: /cookbook
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Guides
+    details: Learn about Ember's Features Reactivity System, Templates and Routing
+    link: /guides
+    linkText: Learn Ember
+  - title: Tooling
+    details: Find ways to make yourself the best place to develop Ember projects
+    link: /tooling
+    linkText: Start your Dev Setup
+  - title: Cookbook
+    details: Best Practices
+    link: /cookbook
+    linkText: Level up your Code
+  - title: Component Architecture
+    details: In-depth guides for developing sustainable components
+    link: /component-architecture
+    linkText: Develop Components
 ---

@@ -1,5 +1,9 @@
 const sidebarGuides = [
   {
+    text: 'Motivation',
+    link: '/guides/motivation'
+  },
+  {
     text: 'Guides',
     link: '/guides',
     items: [
