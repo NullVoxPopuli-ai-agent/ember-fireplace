@@ -10,7 +10,7 @@ import {
   VpvContainerHorizontal,
   VpvContainerVertical
 } from '@cynber/vitepress-valence'
-import CopyOrDownloadAsMarkdownButtons from 'vitepress-plugin-llms/vitepress-components/CopyOrDownloadAsMarkdownButtons.vue'
+//import CopyOrDownloadAsMarkdownButtons from 'vitepress-plugin-llms/vitepress-components/CopyOrDownloadAsMarkdownButtons.vue'
 import { setupEmber } from 'vite-plugin-ember/setup';
 
 export default {
@@ -21,7 +21,7 @@ export default {
     app.component('VpvCardVertical', VpvCardVertical);
     app.component('VpvContainerHorizontal', VpvContainerHorizontal);
     app.component('VpvContainerVertical', VpvContainerVertical);
-    app.component('CopyOrDownloadAsMarkdownButtons', CopyOrDownloadAsMarkdownButtons);
+    //app.component('CopyOrDownloadAsMarkdownButtons', CopyOrDownloadAsMarkdownButtons);
     setupEmber(app);
   },
 } satisfies Theme
