@@ -25,5 +25,6 @@
     "vitepress-plugin-llms": "^1.11.0",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-tabs": "^0.7.3"
-  }
+  },
+  "packageManager": "pnpm@10.2.1"
 }
