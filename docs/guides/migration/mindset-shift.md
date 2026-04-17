@@ -1,4 +1,4 @@
-### Migrating from `.hbs` to `.gts`: the Mindset Shift (not just the syntax)
+# Migrating from `.hbs` to `.gts`: the Mindset Shift (not just the syntax)
 
 Ember’s move from standalone Handlebars templates (`.hbs`) to **first-class templates inside TypeScript** (`.gts`) can feel like a philosophical change, not a mechanical one. That reaction is valid—and it’s also the key to migrating successfully.
 
