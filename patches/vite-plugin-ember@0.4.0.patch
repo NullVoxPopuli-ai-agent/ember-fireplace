@@ -1,9 +1,22 @@
+diff --git a/dist/vitepress/setup.js b/dist/vitepress/setup.js
+index 982c291..dccf89d 100644
+--- a/dist/vitepress/setup.js
++++ b/dist/vitepress/setup.js
+@@ -37,7 +37,7 @@ export function setupEmber(app, options = {}) {
+             owner.register(`service:${name}`, instance);
+         }
+     }
+-    const CodePreview = defineAsyncComponent(() => import('../../src/vitepress/code-preview.vue'));
++    const CodePreview = defineAsyncComponent(() => import('./code-preview.js'));
+     app.component(componentName, CodePreview);
+     app.provide(EMBER_OWNER_KEY, owner);
+     return owner;
 diff --git a/dist/vitepress/code-preview.js b/dist/vitepress/code-preview.js
 new file mode 100644
-index 0000000000000000000000000000000000000000..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+index 0000000..360b23b
 --- /dev/null
 +++ b/dist/vitepress/code-preview.js
-@@ -0,0 +1,66 @@
+@@ -0,0 +1,86 @@
 +import { defineComponent, onMounted, onBeforeUnmount, ref, inject, h } from 'vue';
 +import { inBrowser } from 'vitepress';
 +import { EMBER_OWNER_KEY } from './constants.js';
@@ -90,15 +103,3 @@ index 0000000000000000000000000000000000000000..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 +        };
 +    },
 +});
-diff --git a/dist/vitepress/setup.js b/dist/vitepress/setup.js
-index aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 100644
---- a/dist/vitepress/setup.js
-+++ b/dist/vitepress/setup.js
-@@ -37,6 +37,6 @@ export function setupEmber(app, options = {}) {
-         }
-     }
--    const CodePreview = defineAsyncComponent(() => import('../../src/vitepress/code-preview.vue'));
-+    const CodePreview = defineAsyncComponent(() => import('./code-preview.js'));
-     app.component(componentName, CodePreview);
-     app.provide(EMBER_OWNER_KEY, owner);
-     return owner;
